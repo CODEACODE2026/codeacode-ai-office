@@ -63,11 +63,13 @@ Hospedagem:
 ## Regras
 
 Antes de qualquer desenvolvimento:
-1. Entender o objetivo do projeto.
-2. Classificar o nível.
-3. Justificar a escolha.
-4. Escolher o template correto.
-5. Criar escopo inicial.
-6. Só depois liberar para o Agente DEV.
+1. Ler discovery.md e master-prompt.md.
+2. Ler requisitos.md.
+3. Entender o objetivo do projeto.
+4. Classificar o nível.
+5. Justificar a escolha.
+6. Escolher o template correto.
+7. Criar escopo inicial.
+8. Só depois liberar para o Diretor Criativo UI.
 
 Nunca usar tecnologia complexa quando uma solução simples resolver.

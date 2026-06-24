@@ -11,17 +11,51 @@ Fluxo Oficial
 
 Cliente
 ↓
+Gerente de Projetos
+↓
+Prompt Specialist
+↓
 Analista
 ↓
 Arquiteto
+↓
+Diretor Criativo UI
 ↓
 DEV
 ↓
 QA
 ↓
-GitHub
-↓
-Deploy
+DevOps
+
+Prompt Specialist
+
+Arquivo:
+
+agents/prompt-specialist.md
+
+Responsável por:
+
+Transformar ideias vagas em especificações claras.
+Descobrir o problema real do cliente.
+Refinar escopo.
+Identificar riscos.
+Identificar integrações.
+Identificar usuários.
+Definir objetivo do projeto.
+Criar documentação base.
+
+Regra obrigatória:
+
+Nenhum projeto deve seguir para o Agente Analista sem passar primeiro pelo Prompt Specialist.
+
+Saídas:
+
+projects/NOME_DO_PROJETO/discovery.md
+projects/NOME_DO_PROJETO/master-prompt.md
+
+Fonte oficial:
+
+discovery.md e master-prompt.md são a fonte oficial de verdade do projeto.
 
 Agente Analista
 
@@ -31,7 +65,7 @@ agents/analista.md
 
 Responsável por:
 
-Entender o projeto.
+Analisar discovery.md e master-prompt.md.
 Levantar requisitos.
 Identificar funcionalidades.
 Identificar usuários.
@@ -69,6 +103,29 @@ Next.js + Node.js + Redis + WebSocket
 Saída:
 
 projects/NOME_DO_PROJETO/arquitetura.md
+
+Diretor Criativo UI
+
+Arquivo:
+
+agents/diretor-criativo-ui.md
+
+Responsável por:
+
+Criar conceito visual.
+Definir identidade visual.
+Definir paleta de cores.
+Definir tipografia.
+Definir wireframe conceitual.
+Definir componentes especiais.
+Definir imagens e ilustrações.
+Definir animações e microinterações.
+Definir experiência mobile.
+Criar diretrizes visuais para o Agente DEV.
+
+Saída:
+
+projects/NOME_DO_PROJETO/direcao-criativa.md
 
 Agente DEV
 
@@ -136,9 +193,13 @@ Regra Principal
 
 Nunca iniciar desenvolvimento sem:
 
+Discovery concluído.
+Master prompt concluído.
 Requisitos concluídos.
 Arquitetura definida.
+Direção criativa definida para projetos web.
 Tecnologia aprovada.
+Plano aprovado pelo usuário.
 Padrão da Empresa
 
 Projetos simples:
