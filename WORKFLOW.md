@@ -220,3 +220,25 @@ SaaS:
 Next.js + Node.js
 
 Sempre utilizar a solução mais simples que resolva o problema.
+
+
+## Projetos de site/landing page
+
+Todo projeto de site deve passar por:
+
+Prompt Specialist
+↓
+Site Creative Director
+↓
+Diretor Criativo UI
+↓
+DEV
+↓
+UI Reviewer
+
+Nenhum site pode ser desenvolvido sem:
+- conceito visual aprovado
+- referências visuais
+- palavras-chave de imagens
+- animações definidas
+- estrutura de seções aprovada
