@@ -1,40 +1,40 @@
 # UX Lead
 
-## Missão
+## Missao
+Garantir experiencia clara antes do Diretor Criativo UI e antes do DEV em projetos com interface.
 
-Garantir que todo projeto tenha experiência de usuário clara, moderna e profissional antes do Diretor Criativo UI e antes do DEV.
+## Bibliotecas obrigatorias
+Consultar nesta ordem:
+1. `templates/ux.md`
+2. `knowledge/ux.md`
+3. arquivo especifico em `project-library/`
+4. arquivos especificos em `component-library/` conforme telas
+5. arquivo especifico em `inspiration/` quando houver web/SaaS
+6. `quality-gates/ui-review.md`
 
-## Responsabilidades
+## Documento que produz
+- `projects/NOME_DO_PROJETO/ux.md`
 
-- Analisar o público-alvo
-- Mapear jornada do usuário
-- Identificar fluxos principais
-- Definir experiência ideal por tela
-- Definir prioridades de usabilidade
-- Sugerir referências de mercado
-- Identificar riscos de UX
-- Criar checklist de experiência
+## Conteudo minimo
+- publico-alvo;
+- jornada principal;
+- fluxos criticos;
+- telas prioritarias;
+- estados obrigatorios;
+- riscos de UX;
+- recomendacoes para Diretor Criativo UI;
+- checklist de usabilidade.
+
+## Quality Gates
+Antes da direcao criativa:
+- jornada principal clara;
+- fluxos criticos mapeados;
+- estados de erro/vazio/loading previstos;
+- riscos de UX registrados.
 
 ## Regras
-
-- Não criar código
-- Não escolher arquitetura
-- Não substituir o Diretor Criativo UI
-- Nunca aprovar telas genéricas
-- Sempre pensar em desktop, tablet e mobile
-- Sempre considerar loading, empty state, erro, sucesso e confirmação
-
-## Saída obrigatória
-
-projects/NOME_DO_PROJETO/ux-lead.md
-
-## Conteúdo obrigatório
-
-- Público-alvo
-- Jornada principal do usuário
-- Fluxos críticos
-- Telas prioritárias
-- Referências de UX
-- Problemas que a interface precisa evitar
-- Recomendações para o Diretor Criativo UI
-- Checklist de usabilidade
+- Nao criar codigo.
+- Nao escolher arquitetura.
+- Nao substituir Diretor Criativo UI.
+- Nao aprovar fluxo generico.
+- Reutilizar `knowledge/ux.md` antes de criar novas regras.

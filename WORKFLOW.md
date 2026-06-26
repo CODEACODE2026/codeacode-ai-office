@@ -1,277 +1,138 @@
-WORKFLOW - Code a Code AI Office
-Objetivo
+# WORKFLOW - Code a Code AI Office
 
-Definir o fluxo oficial de desenvolvimento da Code a Code.
+## Objetivo
+Definir o fluxo oficial de desenvolvimento da Code a Code usando o AI Office Framework.
 
-Nenhum projeto deve iniciar diretamente pelo Agente DEV.
+Nenhum projeto deve iniciar diretamente pelo DEV.
 
-Todos os projetos devem seguir este fluxo.
-
-Fluxo Oficial
-
+## Fluxo oficial para projetos web
+```text
 Cliente
-↓
-Gerente de Projetos
-↓
-Prompt Specialist
-↓
-Analista
-↓
-Arquiteto
-↓
-UX Lead
-↓
-Diretor Criativo UI
-↓
-Validação do Usuário
-↓
-DEV
-↓
-UI Reviewer
-↓
-QA
-↓
-DevOp
-
-Prompt Specialist
-
-Arquivo:
-
-agents/prompt-specialist.md
-
-Responsável por:
-
-Transformar ideias vagas em especificações claras.
-Descobrir o problema real do cliente.
-Refinar escopo.
-Identificar riscos.
-Identificar integrações.
-Identificar usuários.
-Definir objetivo do projeto.
-Criar documentação base.
-
-Regra obrigatória:
-
-Nenhum projeto deve seguir para o Agente Analista sem passar primeiro pelo Prompt Specialist.
-
-Saídas:
-
-projects/NOME_DO_PROJETO/discovery.md
-projects/NOME_DO_PROJETO/master-prompt.md
-
-Fonte oficial:
-
-discovery.md e master-prompt.md são a fonte oficial de verdade do projeto.
-
-Agente Analista
-
-Arquivo:
-
-agents/analista.md
-
-Responsável por:
-
-Analisar discovery.md e master-prompt.md.
-Levantar requisitos.
-Identificar funcionalidades.
-Identificar usuários.
-Identificar integrações.
-Criar documentação.
-
-Saída:
-
-projects/NOME_DO_PROJETO/requisitos.md
-
-Agente Arquiteto
-
-Arquivo:
-
-agents/arquiteto.md
-
-Responsável por:
-
-Analisar requisitos.
-Escolher tecnologia.
-Escolher template.
-Definir arquitetura.
-
-Classificações:
-
-Nível 1:
-PHP + Hospedagem Compartilhada
-
-Nível 2:
-Node.js + Express + MySQL
-
-Nível 3:
-Next.js + Node.js + Redis + WebSocket
-
-Saída:
-
-projects/NOME_DO_PROJETO/arquitetura.md
-
-Diretor Criativo UI
-
-Arquivo:
-
-agents/diretor-criativo-ui.md
-
-Responsável por:
-
-Criar conceito visual.
-Definir identidade visual.
-Definir paleta de cores.
-Definir tipografia.
-Definir wireframe conceitual.
-Definir componentes especiais.
-Definir imagens e ilustrações.
-Definir animações e microinterações.
-Definir experiência mobile.
-Criar diretrizes visuais para o Agente DEV.
-
-Saída:
-
-projects/NOME_DO_PROJETO/direcao-criativa.md
-
-Agente DEV
-
-Arquivo:
-
-agents/dev.md
-
-Responsável por:
-
-Criar código.
-Criar APIs.
-Criar frontend.
-Criar banco de dados.
-Criar documentação.
-
-Obrigatório:
-
-README.md
-.env.example
-Git
-
-Saída:
-
-Código do projeto.
-
-Agente QA
-
-Arquivo:
-
-agents/qa.md
-
-Responsável por:
-
-Revisar código.
-Revisar segurança.
-Revisar documentação.
-Revisar banco.
-Revisar APIs.
-
-Saída:
-
-projects/NOME_DO_PROJETO/qa-report.md
-
-Resultado:
-
-APROVADO
-ou
-REPROVADO
-
-Templates Oficiais
-
-Nível 1:
-
-templates/site-simples-php
-
-Nível 2:
-
-templates/sistema-node
-
-Nível 3:
-
-Em desenvolvimento
-
-Regra Principal
-
-Nunca iniciar desenvolvimento sem:
-
-Nunca iniciar desenvolvimento sem:
-
-- Discovery concluído
-- Master prompt concluído
-- Requisitos concluídos
-- Arquitetura definida
-- UX Lead concluído
-- Direção criativa concluída
-- Visual aprovado pelo usuário
-- Plano aprovado pelo usuário
-
-Projetos simples:
-PHP
-
-Sistemas:
-Node.js + TypeScript
-
-SaaS:
-Next.js + Node.js
-
-Sempre utilizar a solução mais simples que resolva o problema.
-
-
-## Projetos de site/landing page
-
-Todo projeto de site deve passar por:
-
-Prompt Specialist
-↓
-Site Creative Director
-↓
-Diretor Criativo UI
-↓
-DEV
-↓
-UI Reviewer
-
-Nenhum site pode ser desenvolvido sem:
-- conceito visual aprovado
-- referências visuais
-- palavras-chave de imagens
-- animações definidas
-- estrutura de seções aprovada
-
-
-============================
-
-FRAMEWORK INTERNO
-
-Framework Architect
-
-↓
-
-Design Framework
-
-↓
-
-Component Library
-
-↓
-
-Knowledge Base
-
-↓
-
-Project Library
-
-↓
-
-Agents
-
-↓
-
-Templates
-
-============================
+-> JADE / Gerente de Projetos
+-> Prompt Specialist
+-> Analista
+-> Arquiteto
+-> UX Lead
+-> Diretor Criativo UI
+-> Validacao do Usuario
+-> DEV
+-> UI Reviewer
+-> QA
+-> DevOps
+```
+
+## Regra principal
+Nenhum projeto web pode ir para DEV sem:
+- discovery e master prompt;
+- requisitos;
+- arquitetura;
+- UX Lead;
+- direcao criativa;
+- validacao visual do usuario;
+- tarefa economica aprovada;
+- `quality-gates/project-ready.md` aprovado.
+
+## Framework obrigatorio
+Agentes devem consultar bibliotecas antes de criar conteudo novo:
+- `FRAMEWORK_INDEX.md` somente quando precisar localizar fontes;
+- `knowledge/`
+- `project-library/`
+- `component-library/`
+- `inspiration/`
+- `prompt-library/`
+- `playbooks/`
+- `quality-gates/`
+- `templates/`
+
+Padrao oficial:
+- arquivos de bibliotecas em minusculo com hifen;
+- `README.md` como indice de pasta;
+- documentos estrategicos longos nao devem ser relidos em tarefas rotineiras.
+
+## Quality Gates
+Quality gates bloqueiam avanco de fase.
+
+Gates iniciais:
+- `quality-gates/project-ready.md`
+- `quality-gates/ui-review.md`
+- `quality-gates/backend.md`
+- `quality-gates/release.md`
+
+## Uso do Codex
+Codex so deve ser acionado para tarefa tecnica objetiva com:
+- objetivo;
+- arquivos permitidos;
+- arquivos proibidos;
+- fontes;
+- criterio de conclusao;
+- validacao;
+- aprovacao do usuario.
+
+## Agentes e saidas
+Prompt Specialist:
+- `projects/NOME_DO_PROJETO/discovery.md` usando `templates/discovery.md`
+- `projects/NOME_DO_PROJETO/master-prompt.md` usando `templates/master-prompt.md`
+
+Analista:
+- `projects/NOME_DO_PROJETO/requisitos.md` usando `templates/requisitos.md`
+
+Arquiteto:
+- `projects/NOME_DO_PROJETO/arquitetura.md` usando `templates/arquitetura.md`
+
+UX Lead:
+- `projects/NOME_DO_PROJETO/ux.md` usando `templates/ux.md`
+
+Diretor Criativo UI:
+- `projects/NOME_DO_PROJETO/direcao-criativa.md` usando `templates/direcao-criativa.md`
+
+Site Creative Director:
+- `projects/NOME_DO_PROJETO/site-creative-direction.md` apenas para sites/landing pages que exigem storytelling visual especifico.
+
+UI Reviewer:
+- `projects/NOME_DO_PROJETO/ui-review.md`
+
+QA:
+- `projects/NOME_DO_PROJETO/qa-report.md` usando `templates/qa-report.md`
+
+DevOps:
+- `projects/NOME_DO_PROJETO/release.md` ou `deploy.md` usando `templates/release.md`
+
+## Niveis de projeto
+Nivel 1:
+- site simples, landing page, institucional;
+- PHP, HTML, CSS, JavaScript;
+- hospedagem compartilhada/cPanel.
+
+Nivel 2:
+- sistema web, painel, CRM, PDV, ERP simples;
+- Node.js, Express, TypeScript, MySQL;
+- VPS.
+
+Nivel 3:
+- SaaS, IA, multi-tenant, WebSocket, Redis;
+- Next.js, Node.js, Redis, MySQL;
+- VPS/cloud.
+
+## Framework interno
+Mudancas na AI Office devem ser conduzidas pelo Framework Architect.
+
+Ordem de decisao:
+```text
+conhecimento -> biblioteca
+procedimento -> playbook
+criterio -> quality gate
+formato -> template
+responsabilidade -> agente existente ou novo agente justificado
+```
+
+Novo agente e ultima opcao.
+
+## Economia de contexto
+Antes de qualquer tarefa, escolher no maximo as fontes necessarias:
+- indice;
+- biblioteca especifica;
+- documentos aprovados do projeto;
+- quality gate aplicavel;
+- template de saida.
+
+Nao ler bibliotecas inteiras quando um arquivo especifico resolver.
