@@ -5,5 +5,9 @@ build/
 .env.local
 coverage/
 *.log
-projects/*
 !projects/.gitkeep
+
+# manter projetos gerados fora do git, exceto documentação do Framework v2
+projects/*
+!projects/ai-office-framework-v2/
+!projects/ai-office-framework-v2/**
