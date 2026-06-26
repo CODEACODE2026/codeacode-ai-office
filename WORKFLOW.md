@@ -19,13 +19,19 @@ Analista
 ↓
 Arquiteto
 ↓
+UX Lead
+↓
 Diretor Criativo UI
+↓
+Validação do Usuário
 ↓
 DEV
 ↓
+UI Reviewer
+↓
 QA
 ↓
-DevOps
+DevOp
 
 Prompt Specialist
 
@@ -193,14 +199,16 @@ Regra Principal
 
 Nunca iniciar desenvolvimento sem:
 
-Discovery concluído.
-Master prompt concluído.
-Requisitos concluídos.
-Arquitetura definida.
-Direção criativa definida para projetos web.
-Tecnologia aprovada.
-Plano aprovado pelo usuário.
-Padrão da Empresa
+Nunca iniciar desenvolvimento sem:
+
+- Discovery concluído
+- Master prompt concluído
+- Requisitos concluídos
+- Arquitetura definida
+- UX Lead concluído
+- Direção criativa concluída
+- Visual aprovado pelo usuário
+- Plano aprovado pelo usuário
 
 Projetos simples:
 PHP

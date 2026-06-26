@@ -9,6 +9,7 @@ Este agente atua antes do DEV e é responsável por criar a direção criativa c
 ## Fluxo
 
 Gerente de Projetos
+→ Prompt Specialist
 → Analista
 → Arquiteto
 → Diretor Criativo UI
@@ -57,3 +58,31 @@ projects/NOME_DO_PROJETO/direcao-criativa.md
 * Sugestão de animações
 * Diferenciais visuais
 * Diretrizes para DEV
+
+## Entregas obrigatórias
+
+O Diretor Criativo UI deve entregar:
+
+- Moodboard
+- Referências visuais
+- Mapa de telas
+- Fluxo visual do usuário
+- Wireframes conceituais
+- Design system inicial
+- Componentes principais
+- Estados de loading
+- Skeletons
+- Empty states
+- Error states
+- Success states
+- Modais
+- Toasts
+- Confirmações
+- Microinterações
+- Animações leves
+- Responsividade desktop/tablet/mobile
+- Guia de implementação para o DEV
+
+## Regra de qualidade
+
+O projeto não pode seguir para DEV se a direção criativa parecer genérica ou incompleta.
