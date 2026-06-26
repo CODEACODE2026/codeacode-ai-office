@@ -242,3 +242,36 @@ Nenhum site pode ser desenvolvido sem:
 - palavras-chave de imagens
 - animações definidas
 - estrutura de seções aprovada
+
+
+============================
+
+FRAMEWORK INTERNO
+
+Framework Architect
+
+↓
+
+Design Framework
+
+↓
+
+Component Library
+
+↓
+
+Knowledge Base
+
+↓
+
+Project Library
+
+↓
+
+Agents
+
+↓
+
+Templates
+
+============================
