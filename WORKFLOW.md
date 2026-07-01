@@ -13,6 +13,9 @@ Cliente
 -> Analista
 -> Arquiteto
 -> UX Lead
+-> Conversion Strategist
+-> Brand Strategist
+-> Asset Manager
 -> Diretor Criativo UI
 -> Validacao do Usuario
 -> DEV
@@ -27,6 +30,9 @@ Nenhum projeto web pode ir para DEV sem:
 - requisitos;
 - arquitetura;
 - UX Lead;
+- estrategia de conversao quando houver pagina comercial, site ou funil;
+- estrategia de marca quando houver interface publica ou percepcao de valor relevante;
+- plano de assets quando houver sites, landing pages ou imagens relevantes;
 - direcao criativa;
 - validacao visual do usuario;
 - tarefa economica aprovada;
@@ -38,6 +44,7 @@ Agentes devem consultar bibliotecas antes de criar conteudo novo:
 - `knowledge/`
 - `project-library/`
 - `component-library/`
+- `assets-library/`
 - `inspiration/`
 - `prompt-library/`
 - `playbooks/`
@@ -56,6 +63,7 @@ Gates iniciais:
 - `quality-gates/project-ready.md`
 - `quality-gates/ui-review.md`
 - `quality-gates/backend.md`
+- `quality-gates/qa.md`
 - `quality-gates/release.md`
 
 ## Uso do Codex
@@ -81,6 +89,15 @@ Arquiteto:
 
 UX Lead:
 - `projects/NOME_DO_PROJETO/ux.md` usando `templates/ux.md`
+
+Conversion Strategist:
+- `projects/NOME_DO_PROJETO/conversion-strategy.md` para paginas comerciais, landing pages, sites e funis.
+
+Brand Strategist:
+- `projects/NOME_DO_PROJETO/brand-strategy.md` para projetos com identidade percebida, interface publica ou necessidade de diferenciacao.
+
+Asset Manager:
+- `projects/NOME_DO_PROJETO/assets-plan.md` para sites, landing pages e projetos com imagens/assets relevantes.
 
 Diretor Criativo UI:
 - `projects/NOME_DO_PROJETO/direcao-criativa.md` usando `templates/direcao-criativa.md`

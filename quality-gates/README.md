@@ -10,6 +10,7 @@ Use antes de:
 - iniciar execucao tecnica;
 - aprovar UI;
 - concluir backend;
+- aprovar QA final;
 - preparar release;
 - passar para proxima fase.
 
@@ -35,10 +36,10 @@ Se criterio obrigatorio falhar, a fase nao avanca.
 - `project-ready.md`
 - `ui-review.md`
 - `backend.md`
+- `qa.md`
 - `release.md`
 
 ## Relacao com DoR e DoD
 Definition of Ready valida se a fase pode comecar.
 
 Definition of Done valida se a fase pode ser encerrada.
-

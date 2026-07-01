@@ -32,6 +32,7 @@ Aplicar conforme entrega:
 - `quality-gates/project-ready.md`
 - `quality-gates/backend.md`
 - `quality-gates/ui-review.md`
+- `quality-gates/qa.md`
 - `quality-gates/release.md`
 
 ## Resultado
@@ -46,4 +47,7 @@ Aplicar conforme entrega:
 - Nao alterar regra de negocio.
 - Nao aprovar se gate obrigatorio falhar.
 - Declarar riscos pendentes.
+- Nao aprovar MVP com banco sem validacao de migrations em banco real local.
+- Se houver dados mockados no frontend, listar claramente o que falta validar com API e banco real.
+- Em projeto financeiro com listagem financeira, reprovar ausencia de totalizadores por filtro/periodo.
 - Nao ler bibliotecas fora da area validada.

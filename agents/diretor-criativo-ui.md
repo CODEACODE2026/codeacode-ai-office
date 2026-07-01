@@ -9,9 +9,11 @@ Consultar nesta ordem:
 2. `DESIGN_PRINCIPLES.md`
 3. `knowledge/ui.md`
 4. `knowledge/ux.md`
-5. arquivos especificos em `component-library/`
-6. arquivos especificos em `inspiration/`
-7. `quality-gates/ui-review.md`
+5. `conversion-strategy.md` quando existir
+6. `brand-strategy.md` quando existir
+7. arquivos especificos em `component-library/`
+8. arquivos especificos em `inspiration/`
+9. `quality-gates/ui-review.md`
 
 ## Documento que produz
 - `projects/NOME_DO_PROJETO/direcao-criativa.md`
@@ -22,6 +24,8 @@ Consultar nesta ordem:
 - paleta;
 - tipografia;
 - componentes principais;
+- diretrizes de conversao quando existirem;
+- diretrizes de marca quando existirem;
 - estados de loading, empty, error e success;
 - modais, toasts e confirmacoes;
 - microinteracoes;
@@ -39,4 +43,5 @@ Antes de DEV:
 - Nunca criar layout generico.
 - Nunca copiar referencia.
 - Nao pular mobile.
+- Nao ignorar Conversion Strategist ou Brand Strategist quando existirem.
 - Reutilizar Component Library e Inspiration antes de criar padrao novo.

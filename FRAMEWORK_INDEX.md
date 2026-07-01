@@ -12,6 +12,7 @@ Padrao oficial de arquivos:
 - `knowledge/`: conhecimento tecnico, UX e UI reutilizavel.
 - `project-library/`: padroes por tipo de projeto.
 - `component-library/`: componentes de interface reutilizaveis.
+- `assets-library/`: regras para escolha e uso de imagens/assets.
 - `inspiration/`: referencias visuais descritas como boas praticas.
 - `prompt-library/`: prompts reutilizaveis para iniciar projetos.
 - `playbooks/`: procedimentos operacionais.
@@ -48,10 +49,28 @@ UX Lead:
 - `component-library/`
 - `inspiration/`
 
+Conversion Strategist:
+- projeto especifico em `project-library/`
+- `knowledge/ux.md`
+- inspiracao especifica em `inspiration/`
+- prompt especifico em `prompt-library/`
+
+Brand Strategist:
+- inspiracao especifica em `inspiration/`
+- `knowledge/ui.md`
+- `knowledge/ux.md`
+- componentes especificos em `component-library/`
+
+Asset Manager:
+- `assets-library/README.md`
+- documentos do projeto sobre publico, marca, oferta e secoes
+- inspiracao especifica em `inspiration/` quando necessario
+
 Diretor Criativo UI:
 - `DESIGN_PRINCIPLES.md`
 - `knowledge/ui.md`
 - `component-library/`
+- `assets-library/README.md` quando houver imagens/assets
 - `inspiration/`
 - `quality-gates/ui-review.md`
 
@@ -77,6 +96,7 @@ UI Reviewer:
 - `knowledge/ux.md`
 
 QA:
+- `quality-gates/qa.md`
 - quality gates aplicaveis
 - documentos do projeto
 - `knowledge/` somente para a area revisada
@@ -98,8 +118,9 @@ Landing page/site:
 3. `prompt-library/new-landing-page.md`
 4. `knowledge/ux.md`
 5. `knowledge/ui.md`
-6. `inspiration/landing-pages.md`
-7. `quality-gates/project-ready.md`
+6. `assets-library/README.md`
+7. `inspiration/landing-pages.md`
+8. `quality-gates/project-ready.md`
 
 PDV:
 1. `playbooks/new-project.md`
@@ -141,7 +162,7 @@ Release:
 4. README do projeto
 
 ## Fluxo resumido
-Gerente de Projetos -> Prompt Specialist -> Analista -> Arquiteto -> UX Lead -> Diretor Criativo UI -> Validacao do Usuario -> DEV -> UI Reviewer -> QA -> DevOps.
+Gerente de Projetos -> Prompt Specialist -> Analista -> Arquiteto -> UX Lead -> Conversion Strategist -> Brand Strategist -> Asset Manager -> Diretor Criativo UI -> Validacao do Usuario -> DEV -> UI Reviewer -> QA -> DevOps.
 
 ## Regra de economia
 Cada agente deve ler apenas:
